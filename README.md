@@ -12,10 +12,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The run_analysis.R script was developed based on documentation and data files downloaded on 9/20/2014.
 
-To replicate the output dataset, set the working directory to the top-level directioy of the un-Zipped download file. The script looks for some small files in this directory, and for the main and other data files in the /test and /train subdirectories created when the download is un-Zipped. 
+To replicate the output dataset, set the working directory to the top-level directory of the un-Zipped download file. The script looks for some small files in this directory, and for the main and other data files in the /test and /train subdirectories created when the download is un-Zipped. 
 
-This first scrript only performs steps 1-4 of the course project assignment. 
+Output of the run_analysis(WRITE=F) function is a data frame, and, if WRITE=T is specified, a .txt file in the working directory.
 
-A second script, not compelted, produced the tabulated averages of all "mean" and "STD" variables, by Activity and Subject.
 
 
